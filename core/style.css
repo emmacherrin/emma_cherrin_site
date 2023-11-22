@@ -1,0 +1,202 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --text-bg: rgba(15, 15, 15, 0.9);
+  --spacing: 350px;
+
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* Different weights for specific elements */
+h4 {
+  font-weight: 300; /* Light */
+}
+
+h3 {
+  font-weight: 500; /* Medium */
+}
+
+h2 {
+  font-weight: 600; /* Semi-Bold */
+}
+
+h1 {
+  font-weight: 700; /* Bold */
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* Set your preferred font weight */
+  line-height: 1.6; /* Set your preferred line height */
+  font-size: 18px; /* Set your preferred font size for paragraphs */
+}
+
+/* styles.css */
+
+/* Define styles for unordered list */
+ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+/* Define styles for list items */
+li {
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif; /* Specify Open Sans and fallback to sans-serif */
+  font-size: 17px; 
+  font-weight: 300;
+  list-style-type: disc; 
+}
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+/* Define styles for the strong and em tags within list items */
+li strong,
+li em {
+  font-weight: bold;
+  font-style: italic;
+  color: #8a8a8a; 
+}
+
+/* Define styles for the span tags within list items */
+li span {
+  font-size: 18px; 
+  color: #b8b6b6;
+}
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+  header {
+    background: var(--text-bg);
+    grid-column: 2 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+  }
+
+  section:nth-child(2) {
+    background: var(--text-bg);
+    grid-column: 7 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+    grid-row: 2; /* Start in the second row */
+  }
+  
+  section:nth-child(3) {
+    background: var(--text-bg);
+    grid-column: 2 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+    grid-row: 3; /* Start in the third row */
+  }
+  section:nth-child(4) {
+    background: var(--text-bg);
+    grid-column: 7 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+    grid-row: 4; /* Start in the second row */
+  }
+  
+  section:nth-child(5) {
+    background: var(--text-bg);
+    grid-column: 2 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+    grid-row: 5; /* Start in the third row */
+  }
+  section:nth-child(6) {
+    background: var(--text-bg);
+    grid-column: 7 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+    grid-row: 6; /* Start in the third row */
+  }
+  section:nth-child(7) {
+    background: var(--text-bg);
+    grid-column: 2 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+    grid-row: 7; /* Start in the third row */
+  }
+  section:nth-child(8) {
+    background: var(--text-bg);
+    grid-column: 2 / span 5;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+    grid-row: 8; /* Start in the third row */
+  }
+  
+  
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote p {
+    color: black;
+    background-color: white;
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+  }
+
+  .left {
+    grid-column: 6 / 12;
+  }

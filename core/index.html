@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');</style>    
+    <title>Emma Cherrin Website</title>
+  </head>
+  <body>
+
+    <canvas id="bg"></canvas>   
+
+    <main>
+
+      <header>
+        <h1>Emma Cherrin</h1>
+        <h3>Computer Science x Business @ University of Michigan</h3>
+        <p><a href=mailto:echerrin@umich.edu>Contact: echerrin@umich.edu</a></p>
+      </header>
+
+
+      <section>
+        <h2>Education</h2>
+        <p>
+          <b>University of Michigan<i> - Ann Arbor</i></b>
+          Computer Science Major, Business Minor
+        </p>
+        <p>
+          <b>GPA:</b> 3.98
+        </p>
+        <p>
+          <b>Courses:</b> Data Structures and Algorithms, Discrete Mathematics, Computer Organization, Foundations of Computer Science, Operating Systems (Enrolled)
+        </p>
+        <p>
+          <b>Honors: </b>Virginia Schumacher Award for Outstanding Academic Achievement, University Honors, University of Michigan Representative at NASA Johnson Space Center - NASA SUITS, Outstanding Instructional Aide Award
+        </p>
+
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <p>
+          C++, Python, C, Flask, MySQL, SQLite, Object Oriented Programming (OOP), Git, REST APIs, Backend Development, Figma, Postman, HTML, React, Documentation, Communication, Mentoring
+        </p>
+      </section>
+
+      <section class="light">
+        <h2>Experience</h2>
+
+        <p>
+          <strong>NASA SUITS - Collaborative Lab for Advancing Work in Space</strong><br>
+          <em>Ann Arbor, MI</em><br>
+          <em>Product Lead, Full Stack Software Developer, Business Team Lead</em><br>
+          <em>January 2022 - Present</em><br>
+          <ul>
+              <li><span>Design and implement the tech stack for an Augmented Reality (AR) interface that supports astronauts on lunar missions including navigation, geological sampling, and communication with the Mission Control Center.</span></li>
+              <li><span>Develop Mission Control Center dashboard for real-time astronaut communication and data sharing, using React/TypeScript, Fluent 2, MongoDB, Redis, and WebSocket for real-time data and backend functionality.</span></li>
+              <li><span>Direct 13 team members for UI product development and concurrently manage three specialized committees within the Business team, overseeing financial management, external relations, and internal community-building.</span></li>
+          </ul>
+      </p>
+  
+      <p>
+          <strong>University of Michigan - Computer Science and Engineering</strong><br>
+          <em>Ann Arbor, MI</em><br>
+          <em>Instructional Aide - Electrical Engineering and Computer Science</em><br>
+          <em>August 2022 - Present</em><br>
+          <ul>
+              <li><span>Lead a lab of 32 students in a weekly two-hour lab session, encompassing comprehensive content review, engaging lab activities, and interactive question-and-answer sessions.</span></li>
+              <li><span>Orchestrate weekly office hour sessions, demonstrating proficiency in debugging student code,  troubleshooting technical and IDE issues, and reframing course material to cultivate an inclusive and equitable learning environment.</span></li>
+              <li><span>Received the Outstanding Instructional Aide Award, acknowledged for “unwavering dedication, educational expertise, and a profound passion for enhancing learning experiences.”</span></li>
+              
+          </ul>
+      </p>
+  
+      <p>
+          <strong>Bridgify</strong><br>
+          <em>Tel Aviv, Israel</em><br>
+          <em>Back End Software Developer Intern</em><br>
+          <em>June 2023 - August 2023</em><br>
+          <ul>
+              <li><span>Enhanced the overall reliability of the Attractions API by creating proactive Python automated tests, replacing the manual testing approach to identify potential issues with purchases for newly added attractions.</span></li>
+              <li><span>Created comprehensive documentation and user's guide for the booking attractions script, facilitating integration for company employees and clients.</span></li>
+              <li><span>Gained expertise in handling diverse JSON payloads and employed NumPy and Pandas for data manipulation.</span></li>
+          </ul>
+      </p>
+  
+
+      </section>
+
+
+      <section>
+        <h2><a href="https://github.com/emmacherrin?tab=repositories"><u>Projects</u></a></h2>
+
+      
+        <p>
+          <strong>Restaurant Review and Recommendation Backend</strong><br>
+          <ul>
+            <li><span>Designed and implemented a secure user authentication and authorization system using Flask and Flask-JWT-Extended.</span></li>
+            <li><span>Utilized password hashing techniques for security and JWT tokens for user authorization.</span></li>
+            <li><span>Developed a MySQL relational database along with storing restaurant and dish data.</span></li>
+            <li><span>Implemented database table creation and management scripts to ensure scalability.</span></li>
+          </ul>
+        </p>
+      
+        <p>
+          <strong>Relational Database Project</strong><br>
+          <ul>
+            <li><span>Wrote a program to emulate a relational database with an interface based on a subset of a standard query language.</span></li>
+          </ul>
+        </p>
+      
+        <p>
+          <strong>Class Forum Subject Identifier</strong><br>
+          <ul>
+            <li><span>Utilized natural language processing (NLP) and machine learning (ML) techniques to write a program that automatically identifies subjects of student questions on a class forum.</span></li>
+          </ul>
+        </p>
+        <p>
+          <strong>This Personal Website!</strong><br>
+          <ul>
+            <li><span>Designed and implemented  frontend of personal website using Three.js, a JavaScript library that leverages WebGL to create interactive and visually engaging 3D graphics and animations. </span></li>
+          </ul>
+        </p>
+        
+      
+      </section>
+
+
+
+      <section>
+        <h2>Fun!</h2>
+        <p>
+          I’m authoring a programming themed children’s book featuring a female character, aimed at inspiring young girls to feel a sense of belonging in the Computer Science community.
+        </p>
+        <p>
+          <a href="https://www.instagram.com/emmalovestoast/"><u>I love cooking and baking!</u></a>
+        </p>
+        <p>
+          I can juggle apples and eat them at the same time!
+        </p>
+      </section>
+
+    </main>
+    <video id="video" autoplay loop muted style="display: none;">
+      <source src="juggling.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <script src='https://unpkg.com/three@0.123.0/build/three.min.js'></script>
+    <script src='https://unpkg.com/three@0.123.0/examples/js/loaders/GLTFLoader.js'></script>
+  <script src="script.js"></script>
+    <script type="module" src="/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
